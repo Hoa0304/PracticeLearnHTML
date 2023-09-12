@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: wheat;
+    width: 10%;
+
+}
+
+nav{
+    position: absolute;
+    right: 20px;
+    top: 1rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+  
+nav ul li {
+    margin-right: 10px;
+}
+  
+footer {
+    color:red;
+}
+figure{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+figcaption{
+    color: white;
+    top: 180px;
+    position: absolute;
+}
+.anhfigure{
+    
+    height: 100px;
+    width: 100px;
+}
