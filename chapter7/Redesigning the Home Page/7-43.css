@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hon{
+    height: 150px;
+    margin: 20px;
+}
+div{
+    align-items: center;
+   justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    margin-left: 200px;
+}
+header{
+    margin-right: 200px;
+}
