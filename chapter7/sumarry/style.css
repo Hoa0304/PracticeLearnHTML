@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+main {
+
+display: flex;
+flex-direction: column;
+}
+.themain{
+    display: flex;
+    flex-direction: row;
+}
+figure{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+figcaption{
+    color: forestgreen;
+    top: 180px;
+}
+.anhfigure{
+    
+    height: 100px;
+    width: 100px;
+}
